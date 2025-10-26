@@ -1,0 +1,25 @@
+/* CSS */
+#progressContainer {
+  width: 100%;
+  background-color: #deddda;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+#progressBar {
+  width: 50%;
+  height: 20px;
+  background-color: #2e308d;
+  transition: width 2s ease 1s;
+}
+
+.percentage {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: white;
+  padding-right: 5px;
+}

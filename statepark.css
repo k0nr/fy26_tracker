@@ -1,0 +1,134 @@
+<style>
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color:black;
+}
+
+    
+
+
+.outer {
+/* display: flex;
+flex: 1 100%;
+flex-flow: row wrap; */
+align-items: center;
+background-image:url(images/cheering-banner.jpg);
+background-size:contain;
+background-repeat:no-repeat;
+
+
+background-color:black;
+color:#fff200;
+padding: 2%;
+width: 96%;
+height: 94%;
+font-family: LeagueMono,Courier,monospace;
+
+}
+
+.header {
+background-color: rgba(0,0,0,0.4);
+text-align: center;
+font-size: 80;
+font-family: AbolitionTest,Courier,monospace;
+border-radius: 15px;
+}
+
+
+/* CSS GENERATED FROM THE PROGRESSBARGENERATOR.COM */
+#progressContainer {
+  width: 100%;
+  background-color: #cccccc;
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: AbolitionTest,Courier,monospace;
+  position: relative;
+}
+
+#progressBar {
+/* UPDATE THIS */
+  width: 56%;
+  height: 66px;
+  background-color: #d720ef;
+  animation: 5s ease-out 5s infinite normal bar-fill;
+  /* transition: width 2s ease 0s; */
+}
+
+.percentage {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 42px;
+  color: white;
+  padding-right: 5px;
+}
+
+/* end of automated CSS from the generator */
+
+
+#begging {
+  position: relative;
+  top: 50px;
+  z-index:3;
+  width: 30%;
+  left: 35%;
+  font-size: 28px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-align: center;
+
+}
+
+.donate_button {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-family:LeagueMono;
+    font-size:20;
+}
+
+
+.logo {
+  position: absolute;
+  bottom: 0%;
+  right: 10%;
+  font-family:LeagueMono;
+  width: 300px;
+  height: 220px;
+}
+
+
+
+@keyframes bar-fill {
+    from {
+    width: 0%;
+    }
+
+    to {
+/* UPDATE THIS */
+    width: 56%;
+
+    }
+
+}
+
+@font-face {
+  font-family: 'AbolitionTest';
+  src:url('fonts/AbolitionTest-Regular.otf')
+}
+
+@font-face {
+  font-family: 'LeagueMono';
+  src:url('fonts/LeagueMono-Medium.ttf')
+}
+</style>
+
