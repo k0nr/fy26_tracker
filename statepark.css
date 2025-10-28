@@ -21,7 +21,7 @@ flex: 1 100%;
 flex-flow: row wrap; */
 align-items: center;
 background-image:url(images/cheering-banner.jpg);
-background-size:contain;
+background-size:cover;
 background-repeat:no-repeat;
 
 
@@ -79,8 +79,8 @@ border-radius: 15px;
   position: relative;
   top: 50px;
   z-index:3;
-  width: 30%;
-  left: 35%;
+  width: 60%;
+  left: 20%;
   font-size: 38px;
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
