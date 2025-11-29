@@ -1,11 +1,6 @@
 <style>
 
 
-
-
-
-
-
 * {
     padding: 0;
     margin: 0;
@@ -55,7 +50,7 @@ border-radius: 15px;
 
 #progressBar {
 /* UPDATE THIS */
-  width: 46.09%;
+  width: 60.70%;
   height: 66px;
   background-color: #d720ef;
   animation: 5s ease-out 5s infinite normal bar-fill;
@@ -115,7 +110,7 @@ border-radius: 15px;
 
     to {
 /* UPDATE THIS PERCENTAGE */
-    width: 46.09;
+    width: 60.70;
 
     }
 
